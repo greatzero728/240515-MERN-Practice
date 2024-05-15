@@ -1,0 +1,55 @@
+.AnalyticsPage {
+  padding: 2rem;
+  background-color: #050231;
+  color: white;
+}
+
+.AnalyticsPage_Title {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.AnalyticsPage_Title h2 {
+  font-size: 2.5rem;
+}
+
+.AnalyticsPage_Body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.AnalyticsPage_Body_Left {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-right: 1rem;
+  color: #050231;
+}
+
+.AnalyticsPage_Body_Left h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.AnalyticsPage_Body_Left p {
+  font-size: 1.2rem;
+}
+
+.AnalyticsPage_Body_Right {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-left: 1rem;
+  color: #050231;
+}
+
+.AnalyticsPage_Body_Right h3 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.AnalyticsPage_Body_Right p {
+  font-size: 1.2rem;
+}

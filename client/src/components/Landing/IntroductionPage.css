@@ -1,0 +1,41 @@
+.IntroductionPage {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #050231;
+  color: white;
+}
+
+.IntroductionPage_Left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.IntroductionPage_Left h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.IntroductionPage_Left p {
+  font-size: 1.2rem;
+}
+
+.IntroductionPage_Right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.IntroductionPage_Right h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.IntroductionPage_Right p {
+  font-size: 1.2rem;
+}

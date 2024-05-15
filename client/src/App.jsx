@@ -1,12 +1,17 @@
-import { Outlet } from "react-router-dom";
-import Navbar from "./components/Navbar";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import Landing from "./pages/Landing";
+import "./App.css";
 
-const App = () => {
+function App() {
   return (
-    <div className="w-full p-6">
-      <Navbar />
-      <Outlet />
-    </div>
+    <Router>
+      <div className="app">
+        <Routes>
+          <Route path="/" element={<Landing />} />
+        </Routes>
+      </div>
+    </Router>
   );
-};
-export default App
+}
+
+export default App;
